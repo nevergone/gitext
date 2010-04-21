@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin" type="text/css"?>
+<?xml-stylesheet href="chrome://komodo/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://komodo/skin/global/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://komodo/skin/bindings/buttons.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://gitext/locale/pref.dtd" >
+
+<window xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    orient="vertical">
+
+  <groupbox orient="vertical">
+    <caption label="&gitext.settingswindow.label;"/>
+    <vbox>
+    </vbox>
+  </groupbox>
+</window>
+
+

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://gitext/locale/pref.dtd" >
+
+<overlay id="GitextPrefOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <treechildren id="panelChildren">
+        <treeitem id="GitexttabMain">
+            <treerow>
+                <treecell class="treecell-indent"
+                            url="chrome://gitext/content/pref/prefGitext.xul"
+                            label="&gitext.label;"/>
+            </treerow>
+        </treeitem>
+    </treechildren>
+</overlay>
