@@ -1,5 +1,6 @@
 content  gitext  chrome/content/
 
+overlay chrome://komodo/content/komodo.xul      chrome://gitext/content/toolbar.xul
 overlay chrome://komodo/content/pref/pref.xul   chrome://gitext/content/pref/prefOverlay.xul
 
 locale   gitext  en-US  chrome/locale/en-US/
