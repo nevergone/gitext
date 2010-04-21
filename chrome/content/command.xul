@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://gitext/locale/command.dtd" >
+
+<overlay id="commandsOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript"
+      src="chrome://gitext/content/gitext.js" />
+  <commandset id="allcommands">
+    <broadcasterset id="broadcasterset_global">
+      <broadcaster
+          id="cmd_gitcommit" key="key_cmd_gitcommit"
+          desc="&gitextCommit.desc;"
+          oncommand="cmd_gitcommit(event)" />
+    </broadcasterset>
+  </commandset>
+</overlay>
