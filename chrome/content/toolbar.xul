@@ -11,7 +11,7 @@
             tooltiptext="Git VCS Extension Toolbar">
             <toolbarbutton id="gitextCommit"
                 tooltiptext="Git commit"
-								command=""
+								command="cmd_gitcommit"
                 persist="buttonstyle"
                 class="gitext-commit"
                 buttonstyle="pictures"
