@@ -1,0 +1,12 @@
+/* Git commit toolbar-button */
+.gitext-commit {
+  list-style-image : url("chrome://gitext/skin/images/gitext-commit.png");
+}
+.gitext-commit:hover {
+  list-style-image : url("chrome://gitext/skin/images/gitext-commit_hover.png");
+}
+.gitext-commit[disabled="true"],
+.gitext-commit[disabled="true"]:hover,
+.gitext-commit[disabled="true"]:hover:active {
+  list-style-image : url("chrome://gitext/skin/images/gitext-commit_disable.png");
+}
