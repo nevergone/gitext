@@ -11,10 +11,13 @@
     orient="vertical">
 
   <groupbox orient="vertical">
-    <caption label="&gitext.settingswindow.label;"/>
+    <caption label="&gitext.settingswindow.label;" />
     <vbox>
+      <checkbox label="&enable.gitext.label;" id="enable_gitext" />
+      <vbox>
+        <label control="git_path" value="&gitext.git_path.label;" />
+        <textbox id="git_path" />
+      </vbox>
     </vbox>
   </groupbox>
 </window>
-
-

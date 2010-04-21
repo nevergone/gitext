@@ -1,2 +1,4 @@
 <!ENTITY gitext.label "Git VCS Extension">
 <!ENTITY gitext.settingswindow.label "Git VCS Extension for Komodo">
+<!ENTITY enable.gitext.label "Enable Git Extension">
+<!ENTITY gitext.git_path.label "Git executable file (git):">
