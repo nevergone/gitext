@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://gitext/skin/gitext_toolbar.css" type="text/css"?>
+
+<overlay id="overlay"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <toolboxrow id="main-toolboxrow">
+        <toolbar id="gitExtToolbar" align="center"
+						toolbarname="Git VCS Extension Toolbar"
+            buttonstyle="pictures"
+            tooltiptext="Git VCS Extension Toolbar">
+            <toolbarbutton id="gitextCommit"
+                tooltiptext="Git commit"
+								command=""
+                persist="buttonstyle"
+                class="gitext-commit"
+                buttonstyle="pictures"
+                label="Git commit"/>
+        </toolbar>
+    </toolboxrow>
+</overlay>
